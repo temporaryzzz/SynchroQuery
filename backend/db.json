@@ -1,0 +1,45 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Taskora MVP",
+      "status": "active",
+      "createdAt": "2024-01-01"
+    },
+    {
+      "id": "2",
+      "title": "Личный сайт",
+      "status": "done",
+      "createdAt": "2024-01-05"
+    },
+    {
+      "title": "2",
+      "status": "new",
+      "createdAt": "2026-05-01T00:29:38.391Z",
+      "id": "08HhJJkC7Pk"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "101",
+      "projectId": "1",
+      "title": "Настроить API",
+      "done": true
+    },
+    {
+      "id": "102",
+      "projectId": "1",
+      "title": "Сверстать таблицу",
+      "done": false
+    }
+  ],
+  "user": {
+    "id": "u1",
+    "name": "Никита",
+    "settings": {
+      "theme": "dark",
+      "lang": "ru"
+    }
+  },
+  "$schema": "./node_modules/json-server/schema.json"
+}
